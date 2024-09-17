@@ -11,7 +11,7 @@ import SwiftUI
 struct JwebbAppStoreApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchView()
         }
     }
 }
