@@ -7,7 +7,11 @@
 
 import SwiftUI
 
-struct ContentView: View {
+class ContentViewModel: ObservableObject {
+    
+}
+
+struct SearchView: View {
     var body: some View {
         NavigationStack {
             GeometryReader { proxy in
@@ -65,6 +69,6 @@ struct ScreenshotsRow: View {
 }
 
 #Preview {
-    ContentView()
+    SearchView()
         .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
 }
